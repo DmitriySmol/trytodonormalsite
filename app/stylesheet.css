@@ -1,0 +1,98 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.sprite-vk {
+   
+    width: 47px;
+    height: 47px;
+    background-position: -211px -77px;
+}
+.sprite-vk:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -217px -144px;
+}
+.sprite-tw2 {
+    margin-left: 24px;
+    width: 47px;
+    height: 47px;
+    background-position: -150px -144px;
+}
+
+.sprite-tw2:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -220px -10px;
+}
+.sprite-fb {
+    margin-left: 24px;
+    width: 47px;
+    height: 47px;
+    background-position: -112px -10px;
+}
+
+.sprite-fb:hover {
+    
+    width: 47px;
+    height: 47px;
+    background-position: -10px -77px;
+}
+
+.sprite-gb {
+    margin-left: 24px;
+    width: 47px;
+    height: 47px;
+    background-position: -77px -77px;
+}
+.sprite-gb:hover {
+    width: 47px;
+    height: 47px;
+    background-position: -144px -77px;
+}
+.sprite-bag {
+    width: 36px;
+    height: 34px;
+    background-position: -10px -10px;
+}
+
+.sprite-cours {
+    width: 26px;
+    height: 32px;
+    background-position: -66px -10px;
+}
+.sprite-mail {
+    width: 21px;
+    height: 16px;
+    background-position: -179px -10px;
+}
+
+.sprite-phone {
+    width: 19px;
+    height: 20px;
+    background-position: -10px -144px;
+}
+
+.sprite-skype {
+    width: 20px;
+    height: 20px;
+    background-position: -49px -144px;
+}
+
+.sprite-stud {
+    width: 41px;
+    height: 23px;
+    background-position: -89px -144px;
+}
+.sprite-zam {
+    width: 20px;
+    height: 32px;
+    background-position: -10px -211px;
+}
+
+.sprite-zamop {
+    width: 20px;
+    height: 32px;
+    background-position: -50px -211px;
+}

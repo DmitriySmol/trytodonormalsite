@@ -1,0 +1,9 @@
+{
+  "name": "Dima",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "1.8",
+    "bootstrap": "~3.3.5",
+    "normalize.css": "~3.0.3"
+  }
+}

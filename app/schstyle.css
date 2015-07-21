@@ -1,0 +1,346 @@
+html, body {
+  width: 100%;  
+  margin: 0px;
+  background-image: url(images2/bg.png);
+}
+
+.work-space {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.head-line {
+  width: 100%;
+  height: 120px;
+  background-color: #EFF3F7;
+  border-bottom: 1px solid #EFF3F7;
+  border-image: radial-gradient(600px 900px, #729FAD, rgba(29, 103, 123, 0));
+  border-image-slice: 1;
+  border-top: 0px solid #EFF3F7;
+  border-right: 0px solid #EFF3F7;
+  border-left: 0px solid #EFF3F7;
+}
+.header {
+  width: 1200px;
+  height: 120px;
+  background-color: #EFF3F7;
+  margin-left: 0px;
+}
+.logo {
+  display: inline-block;
+  height: 42px;
+  width: 240px;
+  margin-top: 40px;
+}
+#logimg {
+  margin-left: 0px;
+  height: 42px;
+  width: 240px;
+  padding: 0px;
+}
+.social-icons {
+  width: 260px;
+  display: inline-block;
+  margin: 0px;
+  margin-top: 35px;
+  margin-left: 700px;
+  padding: 0px;
+}
+
+#vk {
+position: absolute;
+  height: 47px;
+  width: 47px;
+  z-index: 1;
+  opacity: 0.9;
+}
+#vk2 {
+  position: absolute;
+  height: 47px;
+  width: 47px;
+  z-index: 0;
+  opacity: 0.9;
+}
+#vk:hover {
+  opacity: 0;
+}
+#opbit {
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 40px;
+  height: 70px;
+  width: 210px;
+  background-color: #EFF3F7;
+  border-bottom: 2px solid #3BA8C0;
+}
+#h4 {
+  font-family: 'fira_sansultralight';
+  font-size: 26px;
+  color: #3BA8C0;
+  padding: 15px 25px;
+  margin: 0px;
+}
+#opbitdop {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 740px;
+  width: 440px;
+  height: 72px;
+  background-color: blue;
+  background-color: #EFF3F7;
+}
+#opbit2 {
+  position: absolute;
+  margin-left: 530px;
+  background-color: #EFF3F7;
+  margin-top: 112px;
+  width: 210px;
+  height: 75px;
+}
+#bag {
+  padding: 27px 60px;
+}
+#opbit2dop {
+  margin-left: 650px;
+  margin-top: 112px;
+  width: 530px;
+  height: 75px;
+  position: absolute;
+  background-color: #EFF3F7;
+}
+#hh1 {
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  font-size: 16px;
+  margin: 0px;
+  padding: 21px 0px 0px 5px;
+}
+#pp1 {
+  font-size: 14px;
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  margin-top: -2px;
+  padding: 0px 0px 0px 5px;
+}
+#opbit3 {
+  position: absolute;
+  margin-left: 530px;
+  background-color: #EFF3F7;
+  width: 210px;
+  height: 90px;
+  margin-top: 185px;
+}
+#bag2 {
+  padding: 6px 60px;
+}
+#opbit3dop {
+  margin-left: 650px;
+  margin-top: 185px;
+  width: 530px;
+  height: 90px;
+  position: absolute;
+  background-color: #EFF3F7;
+}
+#hh2 {
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  font-size: 16px;
+  margin: 0px;
+  padding: 1px 0px 0px 5px;
+}
+#pp2 {
+  font-size: 14px;
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  margin-top: -2px;
+  padding: 0px 0px 0px 5px;
+}
+.civ {
+  border-right: 0px solid #EFF3F7;
+  border-left: 0px solid #EFF3F7;
+  border-bottom: 3px solid #EFF3F7;
+  border-top: 3px solid #EFF3F7;
+  border-image: radial-gradient(800px 650px, #1D667A, rgba(29, 103, 123, 0));
+  border-image-slice: 1;
+  height: 570px;
+  width: 100%;
+  position: relative;
+}
+#civ2 {
+  margin-left: 220px;
+  position: absolute;
+  background-color: #3BA8C0;
+  margin-top: 40px;
+  width: 250px;
+  height: 70px;
+}
+#civ3 {
+  width: 250px;
+  height: 70px;
+  margin-left: 220px;
+  position: absolute;
+  margin-top: 110px;
+  background-color: #EFF3F7;
+}
+#civ4 {
+  width: 250px;
+  height: 70px;
+  margin-left: 220px;
+  position: absolute;
+  margin-top: 180px;
+  background-color: #EFF3F7;
+  border-top: 2px solid #3BA8C0;
+}
+#h1 {
+  color: #FEFFFF;
+  font-size: 20px;
+  padding: 7px 25px;
+  font-family: 'fira_sansultralight';
+}
+#h2 {
+  font-family: 'fira_sansultralight';
+  font-size: 20px;
+  padding: 7px 25px;
+  color: #3BA8C0;
+}
+#h3 {
+  font-family: 'fira_sansultralight';
+  font-size: 20px;
+  padding: 7px 25px;
+  color: #A7ACB8;
+}
+#obr {
+  position: absolute;
+  margin-left: 530px;
+  margin-top:300px;
+  height: 70px;
+  width: 210px;
+  background-color: #EFF3F7;
+  border-bottom: 2px solid #3BA8C0;
+}
+#h5 {
+  font-family: 'fira_sansultralight';
+  font-size: 26px;
+  color: #3BA8C0;
+  padding: 15px 25px;
+  margin: 0px;
+}
+#obrdop {
+  position: absolute;
+  margin-top:300px;
+  margin-left: 740px;
+  width: 440px;
+  height: 72px;
+
+  background-color: #EFF3F7;
+}
+#obr2 {
+position: absolute;
+margin-left: 530px;
+background-color: #EFF3F7;
+margin-top: 372px;
+width: 650px;
+height: 75px;
+}
+#stud {
+  padding: 35px 56px;
+}
+#obr2dop {
+margin-left: 650px;
+margin-top: 372px;
+width: 530px;
+height: 90px;
+position: absolute;
+background-color: #EFF3F7;
+}
+#hh3 {
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  padding: 50px 160px;
+  font-size: 16px;
+  margin: 0px;
+  padding: 29px 0px 0px 5px;
+}
+#pp3 {
+  font-size: 14px;
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  margin-top: -2px;
+  padding: 0px 0px 0px 5px;
+}
+#obr3 {
+  position: absolute;
+  margin-left: 530px;
+  background-color: #EFF3F7;
+  width: 650px;
+  height: 90px;
+  margin-top: 447px;
+}
+#cours {
+  position: absolute;
+  padding: 20px 65px;
+}
+#obr3dop {
+  margin-left: 650px;
+  width: 530px;
+  margin-top: 447px;
+  height: 90px;
+  position: absolute;
+  background-color: #EFF3F7;
+}
+#hh4 {
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  padding: 50px 160px;
+  font-size: 16px;
+  margin: 0px;
+  padding: 13px 0px 0px 5px;
+}
+#pp4 {
+  font-size: 14px;
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  margin-top: -2px;
+  padding: 0px 0px 0px 5px;
+}
+.post {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background-color: #EFF3F7;
+  padding: 0px;
+  overflow: hidden;
+  margin-bottom: 1%;
+}
+#zamdiv {
+  margin-left: 255px;
+  margin-top: 0px;
+  height: 80px;
+  position: absolute;
+}
+#zam {
+  position: absolute;
+  padding: 25px 0px;
+}
+#zamop {
+  position: absolute;
+  padding: 25px 0px;
+}
+#zam:hover {
+  opacity: 0;
+}
+#texth {
+  font-family: 'fira_sansultralight';
+  color: #5E6770;
+  font-size: 13px;
+  padding: 32px 0px;
+  margin: 0px;
+}
+#posth {
+  margin-top: 0px;
+  position: absolute;
+  margin-left: 500px;
+  height: 80px;
+  width: 500px;
+  background-color: #EFF3F7;
+}
