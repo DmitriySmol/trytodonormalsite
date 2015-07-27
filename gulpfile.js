@@ -1,36 +1,21 @@
-var gulp = require('gulp'),
-	prefix = require('gulp-autoprefixer'),
-	livereload = require('gulp-livereload'),
-	connect = require('gulp-connect');
+var gulp = require("gulp"),
+	browserSync = require('browser-sync');
 
-//server connect
-gulp.task('connect', function() {
-	connect.server({
-		root: 'app',
-		livereload: true
+gulp.task('server', function() {
+	browserSync({
+		port: 9000,
+		server: {
+			baseDir: 'app'
+		}
 	});
 });
 
-//css
-gulp.task('css', function() {
-  gulp.src('app/*.css')
-  	.pipe(concatCSS('bundle.css'))
-  	.pipe(pulp.dest('app/'))
-  	.pipe(prefix('last 2 versions','> 1%', 'ie 9'))
-  	.pipe(connect.reload());
+gulp.task('watch', function () {
+	gulp.watch([
+		'app/*.html',
+		'app/js/**/*.js',
+		'app/*.css'
+	]).on('change', browserSync.reload);
 });
 
-//html
-gulp.task('html', function() {
-	gulp.src('app/index.html')
-	.pipe(connect.reload());
-})
-
-//watch
-gulp.task('watch', function() {
-	gulp.watch('app/*.css', ['css'])
-	gulp.watch('app/*index.html', ['html'])
-})
-
-//default
-gulp.task('default', ['connect', 'html', 'css', 'watch']);
+gulp.task('default', ['server', 'watch']);

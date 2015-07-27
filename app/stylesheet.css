@@ -55,29 +55,34 @@
     width: 36px;
     height: 34px;
     background-position: -10px -10px;
+    width: 100%;
 }
 
 .sprite-cours {
     width: 26px;
     height: 32px;
     background-position: -66px -10px;
+    width: 100%;
 }
 .sprite-mail {
     width: 21px;
     height: 16px;
     background-position: -179px -10px;
+   
 }
 
 .sprite-phone {
     width: 19px;
     height: 20px;
     background-position: -10px -144px;
+    width: 100%;
 }
 
 .sprite-skype {
     width: 20px;
     height: 20px;
     background-position: -49px -144px;
+    width: 100%;
 }
 
 .sprite-stud {
@@ -89,9 +94,10 @@
     width: 20px;
     height: 32px;
     background-position: -10px -211px;
+    cursor: pointer;
 }
 
-.sprite-zamop {
+.sprite-zam:hover {
     width: 20px;
     height: 32px;
     background-position: -50px -211px;

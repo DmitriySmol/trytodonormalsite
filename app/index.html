@@ -1,38 +1,247 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru-RU">
   <head>
-    <meta charset=utf-8>
+    <meta charset=utf-8>  
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="author" content="Dmitriy Smolyarenko">
+    <title>Моя страница</title>
+    <link rel="shortcut icon" href="http://faviconka.ru/ico/faviconka_ru_283.ico" type="image/x-icon"/>
+    <link rel="icon" href="http://faviconka.ru/ico/faviconka_ru_283.ico" type="image/x-icon"/>
     <link rel="stylesheet"  type="text/css" href="schstyle.css">
     <link rel="stylesheet"  type="text/css" href="stylesheet.css">
     <link rel="stylesheet" href="fira/fira.css">
-    <title>Макет</title>
+    <link rel="stylesheet" href="bower/normalize.css/normalize.css">
+    <script src="bower/modernizer/modernizr.js"></script>
+    
   </head>
     <body>
-      
-        <div class="head-line"> <!-- див для полоски заголовка во всю ширину экрана -->
-          <section class="work-space"> <!-- рабочее пространство, + центрирование при масштабировании  -->
-          
+        
+      <!--[if it IE 7]>
+      <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер.
+      Пожалуйста <a href="http://browserhappy.com/">обновите</a> его.</p>
+      <![endif]-->
+
+        
+          <!-- header во всю длину -->
+          <div class="head-line">
             <header class="header">
-              
-              <div class="logo"><img id="logimg" src="images2/logo.png" alt="" /></div
-          
-               ><figure class="social-icons">
-                 <div  class="sprite sprite-vk"></div
-                 ><div class="sprite sprite-vk2"></div
-                 ><div class="sprite sprite-tw"></div
-                 ><div class="sprite sprite-tw2"></div
-                 ><div class="sprite sprite-fb"></div
+              <div class="logo"><a href="http://loftschool.com/"><img class="logoimg" src="images2/logo.png" alt="LoftSchool" /></div
+               ></a><figure class="social-icons">
+                  <a href="https://vk.com/dimasiksmol" class="sprite sprite-vk"></a
+                  ><div class="sprite sprite-vk2"></div
+                 ><a href="https://twitter.com/" class="sprite sprite-tw"></a
+                 ><a href="https://twitter.com/" class="sprite sprite-tw2"></a
+                 ><a href="https://facebook.com/" class="sprite sprite-fb"></a
                  ><div class="sprite sprite-fb2"></div
-                 ><div class="sprite sprite-gb"></div
+                 ><a href="https://github.com/DmitriySmol" class="sprite sprite-gb"></a
                  ><div class="sprite sprite-gb2"></div>
                </figure>
-              
+               <div class="gradient2"></div>
             </header>
-<h1>wdawd</h1>
-          </section>
+
+          </div>  
+          <div class="wrapper">
+           
+            <!-- тело сайта -->            
+            <div class="work-space"
+              ><aside class="nav-big">
+                <nav class="about-me-contacts">
+                   <!-- Обо мне -->
+                  <ul class="nav-1">     
+                    <li class="about-me"><div class="about-me-text1">Обо мнe</div></li>
+                    <li class="about-me"><div class="about-me-text2">Мои работы</div></li>
+                    <li class="about-me">
+                      <div class="connect-to-me">
+                        <div class="about-me-text3-border"><div class="about-me-text3">Связаться со мной</div></div>
+                        </div></li>
+                  </ul>
+                  <!-- контакты -->
+                  <ul class="nav-2">     
+                    <li class="nav-2-1">
+                      <div class="nav-text-1">Контакты</div></li>             
+                    <li class="nav-2-2">
+                      <div class="mail">
+                        <div class="sprite sprite-mail"></div></div>
+                      <a href="mailto:d89250892625@yandex.ru" class="nav-2-text">d89250892625@yandex.ru</a>
+                      </li>
+                    <li class="nav-2-3">
+                      <div class="mail">
+                        <div class="sprite sprite-phone"></div></div> 
+                      <a href="tel:+79154543527" class="nav-2-text">8-915-454-35-27</a></li>
+                    <li class="nav-2-4">
+                     <div class="mail">
+                        <div class="sprite sprite-skype"></div></div>
+                     <a href="skype:nosvnosos?add" class="nav-2-text">nosvnosos</a></li>
+                  </ul>
+                </nav>
+              </aside
+              ><section class="main-information">
+               <!-- Основная информация -->
+                <article class="main">
+                  <div class="main-information-border">
+                    <h2 class="main-information-text">Основная информация</h2
+                  ></div>
+                  <div class="main-photo">
+                    <img class="i-am" src="images2/iam.png" alt="My photo"></div
+                  ><div class="name-skills">
+                    <div class="my-name info info-left">Меня зовут:</div><div class="my-name-is info info-right">Смоляренко Дмитрий Михайлович </div
+                    ><div class="age info info-left">Мой возраст:</div><div class="my-age info info-right">23 года</div
+                    ><div class="city info info-left">Мой город:</div><div class="my-city info info-right">Щелково, МО, Россия</div
+                    ><div class="spec info info-left">Моя специалиация:</div><div class="my-spec info info-right">FRONTEND разработчик</div
+                    ><div class="skills info info-left">Ключевые навыки:</div
+                    ><div class="my-skills info info-right">
+                      <div class="skills-i-have-first">HTML</div
+                      ><div class="skills-i-have">CSS</div
+                      ><div class="skills-i-have">Javascript</div
+                      ><div class="skills-i-have">GIT</div
+                    ></div>
+                  </div>
+                </article>
+                <!-- Опыт -->
+                <article class="Expirience">
+                    <div class="Expirience-work-border">
+                      <h2 class="main-information-text">Опыт работы</h2>
+                    </div>
+                     
+                    <div class="list-conteiner">
+                      <ul class="ul-Expirience">
+                        <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-bag "></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Kaiser" - менеджер сервисного отдела</div>
+                              <div class="Period">май 2013г. - авсгуст 2013г.</div>
+                            </div>
+                          </li>
+                        </div>         
+                       <!-- 1 -->
+                        <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-bag "></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Sportgrad" - менеджер интернет-магазина</div>
+                              <div class="Period">Сентябрь 2013г. - январь 2014г.</div>
+                            </div>
+                          </li>
+                        </div>                    
+                      <!-- 2 --> 
+                        <div class="li-1-div">
+                          <div class="bag-conteiner">
+                              <div class="sprite sprite-bag"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            
+                            <div class="li-texts">
+                              <div class="Company">"Бест цемент" - менеджер по прожажам</div>
+                              <div class="Period">февраль 2014г. - сентябрь 2014г.</div>
+                            </div>  
+                          </li>
+                        </div>
+                      <!-- 3 -->
+                        <div class="li-1-div">
+                          <div class="bag-conteiner">
+                              <div class="sprite sprite-bag"></div>
+                            </div
+                          ><li class="li-Expirience">
+                            
+                            <div class="li-texts">
+                              <div class="Company">"Инвест-проект" - помощник оценщика недвижимости</div>
+                              <div class="Period"> Март 2015г. - Июнь 2015г.</div>
+                            </div>
+                          </li>
+                        </div>     
+                      </ul>
+                    </div>
+                </article>
+            
+                <article class="Expirience">
+                  <div class="Expirience-work-border">
+                      <h2 class="main-information-text">Образование</h2>
+                  </div>
+                  <div class="list-conteiner">
+                  <ul class="ul-Expirience">
+                    <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-stud"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Торгово-экономический колледж" - менеджер организации</div>
+                              <div class="Period">2008г. - 2011г.</div>
+                            </div>
+                          </li>
+                    </div>         
+                    <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-stud"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Московский Финансово-Промышленный университет" - менеджер проектов</div>
+                              <div class="Period">2014г. - По настоящее время</div>
+                            </div>
+                          </li>
+                    </div>         
+                    <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-stud"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Московский Финансово-Промышленный университет" - Прикладная информатика</div>
+                              <div class="Period">2015г. - По настоящее время</div>
+                            </div>
+                          </li>
+                    </div>
+                    <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-cours"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"Moscow Coding School" - основы HTML и CSS</div>
+                              <div class="Period">Апрель 2015г.</div>
+                            </div>
+                          </li>
+                    </div>
+                    <div class="li-1-div">
+                          <div class="bag-conteiner">
+                            <div class="sprite sprite-cours"></div>
+                          </div
+                          ><li class="li-Expirience">
+                            <div class="li-texts">
+                              <div class="Company">"LoftSchool" - комплексная вебразработка</div>
+                              <div class="Period">Июль 2015г. - По настоящее время</div>
+                            </div>
+                          </li>
+                    </div>
+                  </ul>
+                  </div>
+                </article>
+              </section
+            ></div>
+          <footer class="footer-big">
+            <div class="gradient-footer"></div>
+            <div class="copyright">
+              <div class="bag-conteiner zam-conteiner">
+                <div class="sprite sprite-zam"></div>
+              </div>
+                <div class="copyright-text">© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</div>
+            </div>
+          </footer>
+
+          <script src="bower/jquery/jquery.js"></script>
+          <script src="js/main.js"></script>
         </div>
-          
-  
     </body>
 
 </html>
+                    
+                  
+            
+                    
+                    
