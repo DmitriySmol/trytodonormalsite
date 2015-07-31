@@ -1,7 +1,7 @@
 Как установить мой проект
 
-1. git clone git.____url в папку ___
-2. cd в папку ___
+1. git clone https://github.com/DmitriySmol/trytodonormalsite.git в папку site
+2. cd в папку site
 3. bower i 
 4. npm i 
 5. Запустить gulp

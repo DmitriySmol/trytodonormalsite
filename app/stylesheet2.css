@@ -1,0 +1,43 @@
+.sprite2 {
+    background-image: url(spritesheet2.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 100%;
+    border: 2px solid #22A0B7;
+    border-radius: 4px;
+}
+
+.sprite-dobavit {
+    width: 181px;
+    height: 129px;
+    background-position: -5px -5px;
+    width: 100%;
+}
+
+.sprite-portfolio-1 {
+    width: 182px;
+    height: 127px;
+    background-position: -5px -144px;
+    width: 100%;
+}
+
+.sprite-portfolio2 {
+    width: 181px;
+    height: 127px;
+    background-position: -196px -5px;
+width: 100%;
+}
+
+.sprite-portfolio3 {
+    width: 182px;
+    height: 128px;
+    background-position: -197px -142px;
+    width: 100%;
+}
+
+.sprite-portfolio4 {
+    width: 181px;
+    height: 127px;
+    background-position: -197px -280px;
+    width: 100%;
+}
