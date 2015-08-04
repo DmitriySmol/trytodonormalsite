@@ -111,7 +111,7 @@ html, body {
 }
 .about-me{
   width: 100%;
-  min-height: 70px;
+  height: 71px;
   font-family: 'fira_sanslight';
 }
 .about-me:hover {
@@ -133,16 +133,27 @@ html, body {
 .about-me-text2 {
   background-color: #EFF3F7;
   margin: 0;
-  padding: 20px 25px;
+  padding-left: 15px;
+  padding-top: 17px;
   font-size: 22px;
-  text-align: left;
-  color: #A7ACB8;
+  color:  #A7ACB8;
+}
+.my_works {
+  width: 100%;
+  background-color: #EFF3F7;
+  color: white;
+}
+.about-me-text2-border {
+  width: 230px;
+  height: 68px;
+  border-top: 3px solid #EFF3F7;
+  margin-left: 10px;
 }
 .about-me-text3 {
   background-color: #EFF3F7;
   margin: 0;
-  padding-left: 12px;
-  padding-top: 20px;
+  padding-left: 15px;
+  padding-top: 17px;
   font-size: 22px;
   color: #A7ACB8;
 }
@@ -153,15 +164,15 @@ html, body {
 }
 .about-me-text3-border {
   width: 230px;
-  height: 75px;
-  border-top: 2px solid #3BA8C0;
+  height: 68px;
+  border-top: 3px solid #3BA8C0;
   margin-left: 10px;
 }
 .nav-2 {
   padding: 0px;
   width: 250px;
   list-style: none;
-  margin-top: 23px;
+  margin-top: 24px;
   border-radius: 4px 4px 4px 4px;
   -moz-border-radius: 4px 4px 4px 4px; 
   -khtml-border-radius: 4px 4px 4px 4px;
